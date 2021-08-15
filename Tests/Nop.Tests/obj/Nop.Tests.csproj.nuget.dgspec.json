@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Tests\\Nop.Tests.csproj": {}
+    "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Tests\\Nop.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+    "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "projectName": "Nop.Core",
-        "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\Nop.Core.csproj",
+        "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "packagesPath": "C:\\Users\\86134\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\obj\\",
+        "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -114,14 +114,14 @@
         }
       }
     },
-    "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+    "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Data\\Nop.Data.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "projectName": "Nop.Data",
-        "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Data\\Nop.Data.csproj",
+        "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "packagesPath": "C:\\Users\\86134\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Data\\obj\\",
+        "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -144,8 +144,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj"
               }
             }
           }
@@ -200,14 +200,14 @@
         }
       }
     },
-    "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+    "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Services\\Nop.Services.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "projectName": "Nop.Services",
-        "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Services\\Nop.Services.csproj",
+        "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "packagesPath": "C:\\Users\\86134\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Services\\obj\\",
+        "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -230,11 +230,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Data\\Nop.Data.csproj"
               }
             }
           }
@@ -301,14 +301,14 @@
         }
       }
     },
-    "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
+    "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
       "version": "4.3.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Tests\\Nop.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Tests\\Nop.Tests.csproj",
         "projectName": "Nop.Tests",
-        "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Tests\\Nop.Tests.csproj",
+        "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Tests\\Nop.Tests.csproj",
         "packagesPath": "C:\\Users\\86134\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Tests\\obj\\",
+        "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -331,11 +331,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj"
               },
-              "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Services\\Nop.Services.csproj"
+              "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+                "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Services\\Nop.Services.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+7ihvWMfmBt0/tgM28oN4HitBZGiVIOiILkEJI4bTcjEi+iKWs3dMcYGbfv/bGKgBT9zzkKG+MRnj2aFRnSFgA==",
+  "dgSpecHash": "BI91h33heRQkiEd9Io9+oF9cD5X51R56hvWEjzAbbNEYl0r/lq13m8eQYQ/xAdL3ALjft+nzE//58NcPOHWLFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Presentation\\Nop.Web\\Nop.Web.csproj",
+  "projectFilePath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Presentation\\Nop.Web\\Nop.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86134\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\86134\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

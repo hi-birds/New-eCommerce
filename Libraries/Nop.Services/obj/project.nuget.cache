@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zInuUen6pTvMoAm1QTA/NPquTWwxKKmnguEg7ug03/H/JJpqWhkVKl8GvhUfb+rcZ1Xdc3ADkMa8u8rz0IG/4g==",
+  "dgSpecHash": "FMBAp5Oqy7Zb38ADnqwXQaDX0xljQho0CoxW8oFw6bz1Lzoc6PXnFe88dEvIQN5gw5p4MIYhqw5h0KvF4rwXYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Libraries\\Nop.Services\\Nop.Services.csproj",
+  "projectFilePath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Libraries\\Nop.Services\\Nop.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86134\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
     "C:\\Users\\86134\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",

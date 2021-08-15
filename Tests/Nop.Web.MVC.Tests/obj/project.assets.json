@@ -13823,11 +13823,11 @@
   "project": {
     "version": "4.3.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
       "projectName": "Nop.Web.MVC.Tests",
-      "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
+      "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Web.MVC.Tests\\Nop.Web.MVC.Tests.csproj",
       "packagesPath": "C:\\Users\\86134\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Web.MVC.Tests\\obj\\",
+      "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Web.MVC.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -13850,11 +13850,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Presentation\\Nop.Web\\Nop.Web.csproj"
             },
-            "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
-              "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Tests\\Nop.Tests\\Nop.Tests.csproj"
+            "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
+              "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Tests\\Nop.Tests\\Nop.Tests.csproj"
             }
           }
         }

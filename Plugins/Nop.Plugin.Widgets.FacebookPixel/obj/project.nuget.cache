@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wpYI9MaL6UQBmcG5927QIWWiglOJDLndpnEOHw7xetk6TrNjwUC+0VbTTTEWEWXxDhl0TUYgU3bdCuMzyiw3ow==",
+  "dgSpecHash": "T8l3OC5Kgom5MtCRt3uP927++x/1jak3CV/VsAUm5XZ/BbxSObQtgzBzL5sSO7Ek/eTEvoI1+NJgL8399RjLJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Plugins\\Nop.Plugin.Widgets.FacebookPixel\\Nop.Plugin.Widgets.FacebookPixel.csproj",
+  "projectFilePath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Plugins\\Nop.Plugin.Widgets.FacebookPixel\\Nop.Plugin.Widgets.FacebookPixel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86134\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\86134\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

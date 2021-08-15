@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Gh26UCQRaEUWK8DaDZjOo85F7aCdAR61JCldrTPDZnNKPKjgoQKm/MmkrvN0z5uuMczIjzopyaHH355YMs7eg==",
+  "dgSpecHash": "LQg4+QwS2RhMCWQEJLwxZe0mgL2mORese0VI+FqI2mJ3AXacfx82FX20+t2H5i0Q+Xk1eW8VMyHwNJia0txuZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
+  "projectFilePath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Plugins\\Nop.Plugin.Pickup.PickupInStore\\Nop.Plugin.Pickup.PickupInStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\86134\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
     "C:\\Users\\86134\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",

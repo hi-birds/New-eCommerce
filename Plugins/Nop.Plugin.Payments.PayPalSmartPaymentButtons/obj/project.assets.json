@@ -12864,11 +12864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Plugins\\Nop.Plugin.Payments.PayPalSmartPaymentButtons\\Nop.Plugin.Payments.PayPalSmartPaymentButtons.csproj",
+      "projectUniqueName": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Plugins\\Nop.Plugin.Payments.PayPalSmartPaymentButtons\\Nop.Plugin.Payments.PayPalSmartPaymentButtons.csproj",
       "projectName": "Nop.Plugin.Payments.PayPalSmartPaymentButtons",
-      "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Plugins\\Nop.Plugin.Payments.PayPalSmartPaymentButtons\\Nop.Plugin.Payments.PayPalSmartPaymentButtons.csproj",
+      "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Plugins\\Nop.Plugin.Payments.PayPalSmartPaymentButtons\\Nop.Plugin.Payments.PayPalSmartPaymentButtons.csproj",
       "packagesPath": "C:\\Users\\86134\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Plugins\\Nop.Plugin.Payments.PayPalSmartPaymentButtons\\obj\\",
+      "outputPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Plugins\\Nop.Plugin.Payments.PayPalSmartPaymentButtons\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -12891,8 +12891,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\nopCommerce_4.30_Modified\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "C:\\Users\\86134\\Documents\\GitHub\\New-eCommerce\\Presentation\\Nop.Web\\Nop.Web.csproj"
             }
           }
         }
