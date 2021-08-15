@@ -1,0 +1,67 @@
+﻿@model Nop.Plugin.Widgets.BingMapStoreLocation.Models.PublicInfoModel
+@{
+
+
+    Layout = "";
+    Html.AddScriptParts("https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=" + Model.BingKey, "", true, true);
+    Html.AddCssFileParts("~/Plugins/Widgets.BingMapStoreLocation/Content/CollapsiblePS.css");
+    Html.AddScriptParts(ResourceLocation.Footer, "~/Plugins/Widgets.BingMapStoreLocation/Script/CollapsibleM.js");
+    Html.AppendCssFileParts("~/lib/ionicons/css/ionicons-2.0.1.min.css");
+
+}
+
+<script>
+
+
+    function GetMap() {
+
+    var LocationX = '@Model.LocationX';
+    var LocationY = '@Model.LocationY';
+    var PointTitle = '@Model.PointTitle';
+    var PointSubTitle ='@Model.PointSubTitle';
+    var MapZoom = '@Model.MapZoom';
+    var Picture1Url = '@Model.Picture1Url';
+    var MapPointX = '@Model.MapPointX';
+    var MapPointY = '@Model.MapPointY';
+
+
+    var map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
+        center: new Microsoft.Maps.Location(LocationX,LocationY),
+        zoom: MapZoom
+    });
+
+
+
+        var center = map.getCenter();
+
+
+        var pin = new Microsoft.Maps.Pushpin(center, {
+
+
+            title: PointTitle,
+            subTitle: PointSubTitle,
+            icon: Picture1Url,
+            anchor: new Microsoft.Maps.Point(MapPointX, MapPointY)
+            // text:'Fah'
+        });
+
+        ////Add the pushpin to the map
+        map.entities.push(pin);
+
+    }
+
+</script>
+
+
+<div id="BingMap">
+  
+       
+    <button class="collapsibleM ion-ios-location-outline" data-icon="clarity:map-marker-line" data-inline="false"> @T("Plugins.Widgets.BingMapStoreLocation.Location")<text> <i class="fa ion-ios-location-outline"></i></text></button>
+   
+    <div class="contentM">
+        <div id="myMap" style="position:relative;width:100%;height:600px;">
+        </div>
+    </div>
+
+
+</div>

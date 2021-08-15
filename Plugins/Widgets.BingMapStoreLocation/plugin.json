@@ -1,0 +1,11 @@
+{
+  "Group": "Widgets",
+  "FriendlyName": "Store Location BingMap",
+  "SystemName": "Widgets.BingMapStoreLocation",
+  "Version": "1.0.0",
+  "SupportedVersions": [ "4.30" ],
+  "Author": "Reza Talatian Azad",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.BingMapStoreLocation.dll",
+  "Description": "This plugin allows you to shpw your store location on Bing map"
+}

@@ -1,0 +1,5 @@
+﻿{
+  "DataConnectionString": "Server=localhost;port=3306;User Id=kg;Password=apple4;Database=nop;Allow User Variables=True",
+  "DataProvider": "mysql",
+  "RawDataSettings": {}
+}

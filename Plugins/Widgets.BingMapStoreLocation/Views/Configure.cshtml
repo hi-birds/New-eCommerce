@@ -1,0 +1,211 @@
+﻿@model Nop.Plugin.Widgets.BingMapStoreLocation.Models.ConfigurationModel
+@{
+    Layout = "_ConfigurePlugin";
+    Html.AddScriptParts("https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=" + Model.BingKey, "", true, true);
+    Html.AddScriptParts("~/Plugins/Widgets.BingMapStoreLocation/script/JavaBingMap.js");
+}
+
+@await Component.InvokeAsync("StoreScopeConfiguration")
+
+
+<form asp-controller="WidgetsBingMapStoreLocation" asp-action="Configure" method="post">
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                @T("Plugins.Widgets.BingMapStoreLocation.Help");
+
+                <div class="panel-body">
+
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            <nop-override-store-checkbox asp-for="BingKey_OverrideForStore" asp-input="BingKey" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="BingKey" />
+                        </div>
+                        <div class="col-md-9">
+                            <nop-editor id="BingKey" asp-for="BingKey" />
+                            <span asp-validation-for="BingKey"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+
+                            <nop-override-store-checkbox asp-for="PointTitle_OverrideForStore" asp-input="PointTitle" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="PointTitle" />
+                        </div>
+                        <div class="col-md-9">
+                            <nop-editor id="PointTitle" asp-for="PointTitle" />
+                            <span asp-validation-for="PointTitle"></span>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            <nop-override-store-checkbox asp-for="PointSubTitle_OverrideForStore" asp-input="PointSubTitle" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="PointSubTitle" />
+                        </div>
+                        <div class="col-md-9">
+                            <nop-editor id="PointSubTitle" asp-for="PointSubTitle" />
+                            <span asp-validation-for="PointSubTitle"></span>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+
+                            <nop-override-store-checkbox asp-for="LocationX_OverrideForStore" asp-input="LocationX" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="LocationX" />
+                        </div>
+                        <div class="col-md-9">
+                            <nop-editor id="LocationX" asp-for="LocationX" />
+                            <span asp-validation-for="LocationX"></span>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+
+                            <nop-override-store-checkbox asp-for="LocationY_OverrideForStore" asp-input="LocationY" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="LocationY" />
+                        </div>
+                        <div class="col-md-9">
+                            <nop-editor id="LocationY" asp-for="LocationY" />
+                            <span asp-validation-for="LocationY"></span>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            <nop-override-store-checkbox asp-for="PictureId_OverrideForStore" asp-input="PictureId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="PictureId" />
+                        </div>
+                        <div class="col-md-9">
+                            <nop-editor id="PictureId" asp-for="PictureId" />
+                            <span asp-validation-for="PictureId"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group" style="margin-top:10px">
+
+                        <p>
+                            One of the most common issues developers come across when using custom pushpins is that when they zoom the map it appears as if their pushpin is drifting to or from the location it is meant to be anchored to. This is due to an incorrect anchor value in the pushpin options. The anchor specifies which pixel coordinate of the image, relative to the top left corner of the image, should overlap the pushpins location coordinate.
+                        </p>
+                        <p>
+                            For example, consider the following pushpin, which is 24 pixels wide and 26 pixels tall. For this pushpin we would want the bottom point of the pushpin to align with the pushpins location coordinate which in this case would need an x offset that is half the wide and a y offset equal to the height of the image. This would require an anchor point of (12, 36):
+                        </p>
+                        <p>
+                            <img src="@Url.Content("~/Plugins/Widgets.BingMapStoreLocation/images/bmv8.png")" />
+
+                        </p>
+                        <p>Here are some addition pushpin images and anchor values that can be used to properly position the pushpin.</p>
+                        <p>
+                            <img src="@Url.Content("~/Plugins/Widgets.BingMapStoreLocation/images/bmv8-2.png")" />
+
+                        </p>
+                        <p>
+                            Align with Center Anchor: (17, 17)
+                        </p>
+                        <p>
+                            <img src="@Url.Content("~/Plugins/Widgets.BingMapStoreLocation/images/bmv8-3.png")" />
+                        </p>
+                        <p>
+                            Align with Point Anchor: (3, 30)
+                        </p>
+
+                        <p>
+                            <img src="@Url.Content("~/Plugins/Widgets.BingMapStoreLocation/images/bmv8-4.png")" />
+                        </p>
+                        <p>
+                            Align with Point Anchor: (3, 30)
+                        </p>
+                        <p>
+
+                            <a href="https://docs.microsoft.com/en-us/bingmaps/v8-web-control/map-control-concepts/pushpins/anchoring-pushpins">Refrence</a>
+
+                        </p>
+                    </div>
+                    <div class="form-group row">
+                        <div  style=" font-weight: bold;" class="col-md-3">
+
+                            @T("Plugins.Widgets.BingMapStoreLocation.MapPoint"):
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+
+                            <nop-override-store-checkbox asp-for="MapPointX_OverrideForStore" asp-input="MapPointX" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="MapPointX" />
+                        </div>
+                        <div class="col-md-9">
+                            <nop-editor asp-for="MapPointX" />
+                            <span asp-validation-for="MapPointX"></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class=" col-md-3">
+
+                            <nop-override-store-checkbox asp-for="MapPointY_OverrideForStore" asp-input="MapPointY" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="MapPointY" />
+                        </div>
+                        <div class=" col-md-9">
+                            <nop-editor asp-for="MapPointY" />
+                            <span asp-validation-for="MapPointY"></span>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+
+                            <nop-override-store-checkbox asp-for="MapZoom_OverrideForStore" asp-input="MapZoom" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="MapZoom" />
+                        </div>
+                        <div class="col-md-9">
+
+                            <nop-editor id="MapZoom" asp-for="MapZoom" />
+                            <span asp-validation-for="MapZoom"></span>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-md-3">
+
+                            <nop-override-store-checkbox asp-for="BMWidgetZone_OverrideForStore" asp-input="MapZoom" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                            <nop-label asp-for="BMWidgetZone" />
+                        </div>
+                        <div class="col-md-9">
+
+                            <nop-select id="MapZoom" asp-for="BMWidgetZone" asp-items="Model.BMWidgetZoneList" />
+                            <span asp-validation-for="BMWidgetZone"></span>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+            </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-9 col-md-offset-3">
+                        <input type="submit" name="save" class="btn bg-blue" value="@T("Admin.Common.Save")" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Click the Location Of Store
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div id="myMap" style="position:relative;width:100%;height:600px;"></div><br />
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    
+</form>
