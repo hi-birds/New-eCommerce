@@ -599,7 +599,7 @@
                     }
                 })
             </div>
-            @if (Model.CanAddNewShipments)
+            @if ( Model.CanAddNewShipments && (Model.PaymentStatus == "Paid" ) )
             {
                 <div class="panel-footer">
                     <button type="submit" id="btnAddNewShipment" name="btnAddNewShipment" onclick="javascript:setLocation('@(Url.Action("AddShipment", "Order", new { id = Model.Id }))'); return false;" class="btn btn-primary">
